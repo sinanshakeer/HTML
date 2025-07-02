@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend><i>Contact Information</i></legend>
+
+            <label for="fname">First name :</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">First name :</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email">
+
+        </fieldset>
+
+        <fieldset>
+            <legend><i>Competition Question</i></legend>
+
+            <label for="q1">Choose an option.</label><br>
+
+            <input type="radio" id="option1" name="q1">
+            <label for="option1">9 ft</label><br>
+
+            <input type="radio" id="option2" name="q1">
+            <label for="option2">8 ft</label><br>
+
+            <input type="radio" id="option3" name="q1">
+            <label for="option3">7 ft</label><br>
+
+            <input type="radio" id="option4" name="q1">
+            <label for="option4">6 ft</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><i>Another Question</i></legend>
+
+            <label for="q2">Type something in the following box :</label><br>
+            <textarea name="q2" id="q2" rows="12" cols="60"></textarea>
+        </fieldset><br>
+
+        <label for="country">Please Select Country :</label>
+        <input list="countries" id="country" name="country">
+
+        <datalist id="countries">
+            <option value="India">
+            <option value="Iceland">
+            <option value="Indonesia">
+            <option value="Iraq">
+            <option value="Ireland">
+            <option value="Italy">
+            <option value="United Kingdom">
+            <option value="Canada">
+            <option value="Australia">
+            <option value="France">
+            <option value="Japan">
+            <option value="China">
+            <option value="Brazil">
+        </datalist><br><br>
+
+        <label for="color">Choose your favourite color :</label>
+        <input type="color" id="color"><br><br>
+
+        <input type="image" src="./pexels-samsilitongajr-848573.jpg" alt="Submit" width="48" height="48"><br><br>
+
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+        <input type="hidden" id="id" name="id" value="3487">
+
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt"><br><br>
+    </form>
+</body>
+
+</html>

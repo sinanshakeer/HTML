@@ -1,0 +1,17 @@
+Global Attributes
+
+class - specifies one or more class name for an elements
+id - assigns a unique identifier to an element
+style - allows inline css styling
+title - provide additional information(tooltip on hover)
+hidden - hides the element from view
+tabindex - controls the tab order of elements
+lang - declares the language of the element content
+dir - specifies the text direction.
+aceesskey - specifies a keyboard shortcut to the element
+draggable - specifies whether the element is draggable
+contenteditable - allows the content of the element editable
+spellcheck - to check spelling of the element
+data-* - store custom data attribute.
+translate - indicate whether the content should be translated.
+

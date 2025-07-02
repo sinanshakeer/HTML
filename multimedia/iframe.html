@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iframe</title>
+</head>
+
+<body>
+
+  <!-- youtube video -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ttsFX4pkNjY?si=pfBjgzyk63WH0Qao"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- website -->
+  <iframe src="https://www.mongodb.com/?msockid=35bc305302516ef62b5124bf032e6f41" frameborder="0" height="500px"
+    width="80%"></iframe>
+
+  <!-- google map -->
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31297.412278566302!2d75.97411759094214!3d11.321804037153882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba641801beef9e9%3A0xb2830e78854a4e17!2sMukkam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1750391964130!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- pdf -->
+  <embed src="./pdf/adil_p-CV.pdf" type="application/pdf" height="600px" width="80%">
+
+  <!-- audio -->
+  <audio controls>
+    <source src="./audio/sample-3s.mp3">
+  </audio>
+
+  <!-- preloading metadata only -->
+  <h3>preloading metadata only</h3>
+
+  <audio controls preload="auto">
+    <source src="./audio/sample-3s.mp3">
+  </audio>
+
+  <!-- preloading meta data -->
+  <h3>preloading meta data</h3>
+  <audio controls preload="metadata">
+    <source src="./audio/sample-3s.mp3">
+  </audio>
+
+  <!-- preload none -->
+  <h3>preload none</h3>
+  <audio controls preload="none">
+    <source src="./audio/sample-3s.mp3" type="audio/mp3">
+  </audio>
+
+</body>
+
+</html>

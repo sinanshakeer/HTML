@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="300" height="200" style="border: 1px solid black;"></canvas>
+
+    <script>
+        const canvas =document.getElementById("myCanvas");
+        const cxt = canvas.getContext("2d");
+
+        //draw a circle
+        cxt.beginPath();
+        cxt.arc(150,100,50,0, Math.PI * 2);
+        cxt.fillStyle = "red";
+        cxt.fill();
+        cxt.stroke();
+    </script>
+    
+</body>
+</html>
